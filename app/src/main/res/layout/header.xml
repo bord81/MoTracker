@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_margin="7dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/header_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="@string/history_date" />
+
+    <TextView
+        android:id="@+id/header_tot_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="@string/history_time" />
+
+    <TextView
+        android:id="@+id/header_tot_dist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="@string/history_dist" />
+
+    <TextView
+        android:id="@+id/header_map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="@string/history_det" />
+
+</LinearLayout>

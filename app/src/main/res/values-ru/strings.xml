@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MoTracker</string>
+
+    <string name="start_track_button">Начать движение</string>
+    <string name="show_history_button">История треков</string>
+    <string name="delete_button">Удалить все</string>
+    <string name="back_to_main_button">Главное меню</string>
+    <string name="previous_tracks">Предыдущие треки</string>
+    <string name="history_date">Дата</string>
+    <string name="history_time">Время</string>
+    <string name="history_dist">Дист.(км)</string>
+    <string name="history_det">Детали</string>
+    <string name="total_time">Общее время</string>
+    <string name="finish">Завершить</string>
+    <string name="show_map">Карта</string>
+    <string name="avg_speed">Ср./Макс. скорость(км/ч)</string>
+    <string name="cur_speed">Текущая скорость(км/ч)</string>
+    <string name="notification">В движении...</string>
+    <string name="distance">Дистанция(км)</string>
+
+</resources>

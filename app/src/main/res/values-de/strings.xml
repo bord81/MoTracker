@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MoTracker</string>
+
+    <string name="start_track_button">Tracking starten</string>
+    <string name="show_history_button">Chronik anzeigen</string>
+    <string name="delete_button">Alle löschen</string>
+    <string name="back_to_main_button">Zurück zum Hauptmenü</string>
+    <string name="previous_tracks">Frühere Strecken</string>
+    <string name="history_date">Datum</string>
+    <string name="history_dist">Dist.(km)</string>
+    <string name="history_time">Dauer</string>
+    <string name="history_det">Mehr</string>
+    <string name="total_time">Totalzeit</string>
+    <string name="finish">Beenden</string>
+    <string name="show_map">Karte zeigen</string>
+    <string name="avg_speed">mitt./max. Geschw.(km/h)</string>
+    <string name="cur_speed">momentane Geschw.(km/h)</string>
+    <string name="notification">Tracking läuft...</string>
+    <string name="distance">Distanz(km)</string>
+
+</resources>

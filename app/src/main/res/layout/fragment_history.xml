@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/history_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="@string/previous_tracks" />
+
+
+    <ListView
+        android:id="@+id/history_items_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/history_delete_button"
+        android:layout_below="@id/history_header"
+        android:layout_margin="7dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawSelectorOnTop="false"
+        android:visibility="visible" />
+
+
+    <Button
+        android:id="@+id/history_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/history_back_to_main"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_margin="7dp"
+        android:text="@string/delete_button" />
+
+    <Button
+        android:id="@+id/history_back_to_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_margin="7dp"
+        android:text="@string/back_to_main_button" />
+
+</RelativeLayout>
